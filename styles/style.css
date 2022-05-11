@@ -12,6 +12,14 @@ body {
 }
 html, body {
     min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 900px) {
+    body {
+        height:100vh;
+    }
 }
 body::after {
     content: "";
